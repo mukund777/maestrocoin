@@ -1,0 +1,18 @@
+Just like a fingerprint is an identification of a person, a hash is a unique identification of any document or data. 
+SHA is represented in hex. 
+Created by NSA. 
+Really powerful and secure. 
+Code of SHA is opensource. 
+SHA -> Secure Hash Algorithm. 
+Hash length is always the same regardless of the size of the data. 
+SHA256 has a length of 256 bits = 64 hex characters = 32 bytes. 
+For the same input, we always get the same output. 
+Hash changes even when there is a small change in input -> Avalanche effect. 
+Requirements for hash algorithm : 
+	1. One way : Details of plaintext should not be know from the hash. Should be irreversible. 
+	2. Deterministic : Hashing input two times should give the same hash. 
+	3. Fast computation. 
+	4. The avalanche effect : any slight change in input should result in a completely different hash. 
+	5. Must withstand collision : Since number of inputs are unlimmitied and number of outputs are limitted, two inputs can result in the same hash -> collision. 
+	   An attacker should not be able to change inputs so as to result in the same hash, thereby taking over the block. When collisions can occur, an attacker can
+	   modify a block so as to result in the same hash thereby hacking the blockchain. 

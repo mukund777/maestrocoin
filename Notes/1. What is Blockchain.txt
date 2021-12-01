@@ -1,0 +1,11 @@
+Blockchain is a growing list of records, called blocks, that are linked together by cryptography. 
+Each block contains 
+	1. Transactional data
+	2. Hash of previous block
+	3. Timestamp : proves that the transaction data existed when the block was published inorder to get into it's hash. 
+	4. Hash of block. 
+List of blocks linked together using cryptography is called a blockchain. 
+The concept of Blockchain was introduced by Stuart Haber and W.Scott Stornetta.
+Genesis block is the first block. Hash of the genesis block is 0000000000. 
+Blockchain is immutable meaning that if the transactional data is changed, this will result in a change in the hash of the block. This will result in a hash mismatch, 
+thereby blockchain is resistant to modifications in data. 
