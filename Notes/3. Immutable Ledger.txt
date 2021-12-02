@@ -1,0 +1,7 @@
+Blocks are cryptographically linked together. 
+For validation of blockchain, previous hash of present block should be equal to hash of previous block. 
+For traditional ledgers, all data is stored at a single point, thereby changes to data in that point is permanent and irreversible. 
+In the case of blockchain, all blocks are linked together. If a block is changed, previous hash and hash will not be same. 
+This will lead to a chain reaction of incorrect blocks thereby rendering the blockchain invalid.  
+Change in one block will require changes in the subsequent blocks which takes time and resources. 
+The blockchain is shared amoung many nodes and all nodes must agree with eachother for the blockchain to be validated. 

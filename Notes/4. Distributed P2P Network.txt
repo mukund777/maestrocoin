@@ -1,0 +1,19 @@
+Peer to Peer distributed network: 
+	A set of machines that are geographically distributed that are connected to each other through some application and come to some agreement. 
+Plugin your system into the network through software. 
+Blockchain is replicated through each system in the P2P network called nodes. 
+All nodes will be aware of any addition to the network. 
+Can overcome any corruption in a single copy of the blockchain. 
+Can be inefficient due to the presence of many copies of the blockchain, but is the price to pay for security. 
+A common language among the nodes of the network is called consensus protocol. 
+Permissioned Network: All nodes are logged in and not everybody can join the network.  
+Permissionless: Anyone can join the network. 
+If an attacker manages to change certain blocks in a certain node in the P2P Network, nodes will communicate with each other regarding this change. 
+Then each of the nodes that are connected with the node that has the modified copy, will compare their copies of the blockchain with each other and discover that there is a change in the blockchain. 
+Since a majority of the nodes have the actual copy, the modified blockchain is rejected and the attack is thwarted. 
+The node with modified blockchain will change to the blockchain of the majority. 
+Each node should obey the majority rule and communicate in the same language. 
+The only way for an attacker to successfully change the blockchain is to change 51 percent of the copies of blockchain in the nodes. 
+This design has turned an untrusted environment into a trusted one. 
+Even though we don't trust each of the nodes, due to the fact that we have a protocol and we trust the hash cryptography, protocols, etc. The system works in harmony. 
+
