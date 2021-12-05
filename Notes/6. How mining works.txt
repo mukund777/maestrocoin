@@ -1,0 +1,15 @@
+Varying the hash means changing the nonce value. 
+Greater the leading 0's in hex rep of hash, smaller the length of decimal value of the hash. 
+Objective of mining is to find a hash that is less than or equal to a given target. 
+Target is expressed with leading zeroes. 
+For example, the hash must have 4 leading 0's => 0000XXXXX is the representation of the hash. 
+Miners have to change the nonce, calculate the hash of the block and check whether the hash is below the target. 
+If the hash value is greater than the target, change the nonce value and repeat the process. 
+If the hash value is less than the target, the miner wins, he can add the block to the blockchain and get rewarded. 
+Adding a block must be made as difficult as possible, else miners can easily add blocks to the blockchain and that defeats the whole purpose of blockchain. 
+Beauty of avalanche effect is that a single change in the nonce will lead to a drastic change in the hash value. 
+Due to this, miners cannot find patterns and predict the value of the hash based on the value of the nonce. 
+We cannot reverse engineer the hash. We cannot predict the hash based on the input. 
+That is, we cannot predict the hash based on the value of the nonce. 
+All miners/nodes in the P2P Network will have the transaction details and must mine the block and win to add the block in the blockchain. 
+Miners/Nodes have to get lucky to be able to mine the block. 

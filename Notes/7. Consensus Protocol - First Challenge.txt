@@ -1,0 +1,22 @@
+Three challenges faced by blockchain: 
+1. If an attacker manages to change a block in a node, will the other nodes be able to detect this? 
+2. If an attacker can add a new malicious block at the end of the blockchain, will other nodes be able to detect that, and can blockchain overcome that?
+3. All nodes are geographically distributed. If a node adds a new block into the blockchain, it takes time to propagate it to the other nodes. 
+   In the time it takes to propagate, if another node adds a new block, how will you distinguish which block is to be added and which not to?
+
+There are aspects of the consensus protocol: 
+	1. Proof of Work: When the miner comes up with the required hash, it is proof that he has done the work. 
+	2. Proof of stake. 
+	3. Others. 
+
+How do you ensure that the correct transactions are added to the blockchain? 
+	1. Mining fees: Miners get paid by the parties in the transaction to add blocks into the network. 
+	   Hence they ensure that the correct details are added to the blockchain. 
+    
+When an attacker adds a malicious block at the end of the blockchain? 
+	1. Other blocks will come up with their own/correct version of the blockchain and the miner with the malicious block will lose their reward.  
+	2. If a block is added, the other miners will verify that block by performing checks according to the consensus protocol. 
+	   The cryptographic puzzle is hard to solve but easy to verify. 
+
+Verification of hash is easy: block details and nonce are hashed, and the hash obtained by miner is compared with hash obtained by other nodes. 
+Consensus protocols use economic incentives to overcome technical problems => give rewards to ensure that miners mine the correct information. 

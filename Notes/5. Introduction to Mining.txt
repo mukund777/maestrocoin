@@ -1,0 +1,10 @@
+Content of a block: 
+	1. Block number
+	2. Data
+	3. Previous hash 
+	4. Hash of block => Hash of 1,2 and 3. We don't have control of 1,2 and 3
+	5. Nonce: Used to manipulate value of hash for extra control or flexibility.  
+Number Used Once: Nonce. 
+Change in Nonce changes to value of the hash of the block. 
+Miners must find the nonce that produces the hash that satisfies some criteria. 
+The task of the miner is to take 1,2,3 and manipulate the nonce to get a hash that satisfies a particular criterion.  

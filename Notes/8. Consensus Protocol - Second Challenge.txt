@@ -1,0 +1,10 @@
+When two miners come up with two blocks and propagate them, depending on the speed of the propagation, some parts of the network have block from the first miner and 
+other parts from the second miner. 
+This leads to a conflict. 
+According to the consensus protocol, the longest blockchain is the king. 
+The longest blockchain will be replicated across all nodes. 
+In either case, the block which is part of the longest chain will be added to the network while the other block will be orphaned. 
+This block will be called the orphaned block. 
+The person who mined the orphaned block will lose his reward. 
+The solution is to wait for 6 blocks to be added then add your block. 
+Only 50 percent of the network needs to be honest to come to an agreement. 
