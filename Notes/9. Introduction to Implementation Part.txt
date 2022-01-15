@@ -1,0 +1,12 @@
+How will the software look like? 
+The software must be run by the nodes and the client. 
+Architecture : 
+1. P2P network: set of nodes, each node must be able to talk to any other nodes and must maintain their own copy of the blockchain.
+2. Each node must contain a set of transactions carried out by the users. Each node will receive a list of transactions and the nodes must mine it. 
+3. Reward for successfully mining a node is 1 coin. 
+4. Nodes should have a consensus protocol to have a unified version of the blockchain. 
+5. Clients/users should be able to interact with the network and send over transactions. 
+	a.Software should allow users to generate public and private keys for their wallets.
+	b. Transactions must be sent from the user to every node in the network. The value should be in the transaction. 
+	   The sender will be the public key of the user and the receiver will be any other public key in the network. 
+	c. The software should allow the users to view any transaction present in the blockchain. 
